@@ -10,10 +10,10 @@ export type User = {
 export type MenuItem = {
     _id: string;
     name: string;
-    price: string;
+    price: number;
 }
 
-export type RestaurantType = {
+export type Restaurant = {
     _id: string;
     user: string;
     restaurantName: string;
